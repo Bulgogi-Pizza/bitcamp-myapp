@@ -6,4 +6,4 @@ COPY ${JAR_FILE} myapp.jar
 
 LABEL authors="cdi"
 
-ENTRYPOINT ["java", "-Dspring.profiles.active=pord", "-jar", "myapp.jar"]
+ENTRYPOINT ["java", "-Dspring.profiles.active=prod", "-jar", "myapp.jar"]
